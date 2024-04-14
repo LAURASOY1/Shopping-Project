@@ -1,0 +1,136 @@
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+
+}
+header .icon-cart{
+  position: relative;
+}
+
+
+header .icon-cart span{
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  color: #312fb9;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: -20px;
+}
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined', sans-serif; 
+  font-size: 24px; 
+}
+
+#productsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+  
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#productsContainer :hover{
+  background-color: rgb(221, 208, 208);
+  opacity: 1;
+}
+
+.product img {
+  max-width: 100%;
+  height: 180px;
+}
+
+.product h3 {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.product p {
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+header {
+  padding: 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+input{
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0a75e9;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #031329;
+} 
+
+.material-symbols-outlined{
+  width: 90px;
+}
+
+footer {
+  background-color: #333; 
+  color: #fff; 
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation a {
+  color: #fff; 
+  text-decoration: none;
+  margin-right: 20px; 
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+.legal {
+  margin-top: 20px; 
+  font-size: 14px; 
+}
+
+.legal a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px; 
+}
+
+.legal a:hover {
+  text-decoration: underline;
+}
+
+
+
